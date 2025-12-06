@@ -1,6 +1,6 @@
 // Implementasi Destructuring
 // membuat props text, dengan nilai default berupa string
-function HeaderHelloWorld({text = "Ups! Lupa kasih teks."}) {
+function HeaderHelloWorld({ text = "Ups! Lupa kasih teks." }) {
   return (
     <>
       <h1 style={{ fontFamily: "arial, sans-serif", color: "#333" }}>
@@ -14,7 +14,14 @@ function ParagraphHelloWorld() {
   const location = "./src/assets/react.svg";
   return (
     <div style={{ fontFamily: "arial, sans-serif", color: "#535353" }}>
-      <div style={{ display:"flex", width:"100px", justifyContent:"space-between", justifyItems:"center" }}>
+      <div
+        style={{
+          display: "flex",
+          width: "100px",
+          justifyContent: "space-between",
+          justifyItems: "center",
+        }}
+      >
         <img src={location} alt="react logo" />
         <img src="vite.svg" alt="vite logo" />
       </div>
@@ -32,4 +39,24 @@ function ParagraphHelloWorld() {
   );
 }
 
-export { HeaderHelloWorld, ParagraphHelloWorld };
+// Implementasi Spread Syntax
+function SubHeaderHelloWorld() {
+  const props = {
+    text: "Hello, World! From Spread Syntax.",
+    greeting: "Selamat malam.",
+  };
+
+  return (
+    <>
+      {/* Menggunakan Spread Syntax */}
+      <HeaderHelloWorld {...props} />
+
+      {/* Menggunakan salah satu props */}
+      <HeaderHelloWorld text={props.greeting} />
+
+      <ParagraphHelloWorld />
+    </>
+  );
+}
+
+export { HeaderHelloWorld, SubHeaderHelloWorld, ParagraphHelloWorld };

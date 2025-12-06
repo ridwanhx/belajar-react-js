@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import { HeaderHelloWorld, ParagraphHelloWorld } from "./ImplementasiProps";
+import { HeaderHelloWorld, SubHeaderHelloWorld, ParagraphHelloWorld } from "./ImplementasiProps";
 import { StrictMode } from "react";
 
 createRoot(document.getElementById("root")).render(
@@ -9,6 +9,9 @@ createRoot(document.getElementById("root")).render(
         
         {/* Mengirim Props */}
         <HeaderHelloWorld text="Hello, World!" />
+
+        {/* Implementasi Spread Syntax */}
+        <SubHeaderHelloWorld/>
         <ParagraphHelloWorld/>
     </StrictMode>
 );

@@ -3,12 +3,14 @@ import { Todo } from "./Todo";
 function TodoList() {
   return (
     <>
-      <Todo isCompleted={true} text={"Belajar HTML"} isDeleted={true} />
-      <Todo isCompleted={true} text={"Belajar CSS"} />
-      <Todo isCompleted={true} text={"Belajar JavaScript"} />
-      <Todo isCompleted={true} text={"Belajar PHP"} />
-      <Todo isCompleted={false} text={"Belajar Golang"} />
-      <Todo isCompleted={false} text={"Belajar Dart"} />
+      {/* Kedua komponen dihilangkan menggunakan return null */}
+      <Todo text={"Belajar HTML"} isChecked={true} isDeleted={true} />
+      <Todo text={"Belajar CSS"} isChecked={true} isDeleted={true} />
+
+      <Todo text={"Belajar JavaScript"} isChecked={true} />
+      <Todo text={"Belajar React"} isChecked={true} />
+      <Todo text={"Belajar Laravel"} isChecked={true} />
+      <Todo text={"Belajar Golang"} isChecked={false} />
     </>
   );
 }

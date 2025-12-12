@@ -11,3 +11,7 @@
 
 // Ternary Operator
 // Kadang pada kasus yang lebih sederhana, kita bisa menggunakan Ternary Operator JavaScript di JSX
+
+// Logical AND
+// Di beberapa kasus yang lebih sederhana lagi (dibanding IF ataupun juga Ternary Operator). kadang di JSX sering memanfaatkan Logical AND di JavaScript
+// Misal jika kondisi terpenuhi maka akan menampilkan ..., jika tidak maka tidak menampilkan ...

@@ -31,3 +31,10 @@ function increment() {
 // Membuat Pure Component
 // Lantas bagaimana cara Component Row dan Table menjadi Pure Component?
 // Kita harus menghapus efek samping dari Component tersebut, contohnya kita bisa pindahkan variabel counter menjadi local variabel di Table, dan gunakan Props sebagai counter nya
+
+// Dimana bisa melakukan efek samping?
+// React menyediakan tempat khusus jika kita ingin membuat Component yang bisa menghasilkan efek samping
+// Efek samping dari Component biasanay ditempatkan di Event Handler, Event Handler sendiri yaitu aksi yang terjadi ketika kita berinteraksi dengan Componentnya, contohnya ketika kita mengklik tombol, mengubah input, dan lain-lain
+// Atau ketika misal Component tergantung dengan external system (misal API), maka React menyediaakn function useEffect()
+// https://react.dev/reference/react/useEffect
+// Semua ini akan kita bahas di materima masing-masing

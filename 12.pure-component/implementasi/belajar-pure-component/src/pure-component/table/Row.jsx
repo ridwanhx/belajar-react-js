@@ -1,10 +1,12 @@
-let counter = 0;
+// let counter = 0;
 
-function Row({ text }) {
-  {counter++};
+// Implementasi Pure Component
+// baris program yang dikomentari merupakan implementasi sebelumnya (sebelum mengimplementasikan Pure Component)
+function Row({ id, text }) {  // tambahkan param id
+  // {counter++};
   return (
     <tr>
-      <td>{counter}</td>
+      <td>{id}</td>
       <td>{text}</td>
     </tr>
   );

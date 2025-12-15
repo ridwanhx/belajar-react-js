@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+    box-sizing: border-box;
+    /* background-color: salmon; */
+}
+
+.btn {
+    display: block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+
+.btn-outline-primary {
+    border: 1px solid royalblue;
+    color: royalblue;
+    background-color: #fff;
+}
+.btn-outline-primary:hover {
+    color: white;
+    background-color: royalblue;
+    box-shadow: 2px 2px 6px rgba(65, 105, 225, .40);
+}

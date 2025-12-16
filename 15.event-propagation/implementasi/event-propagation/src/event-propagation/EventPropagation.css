@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: block;
+  margin: .3rem 0;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.btn-outline-primary {
+  border: 1px solid royalblue;
+  color: royalblue;
+  background-color: #fff;
+}
+.btn-outline-primary:hover {
+  color: white;
+  background-color: royalblue;
+  box-shadow: 2px 2px 6px rgba(65, 105, 225, 0.4);
+}
+.btn-outline-danger {
+  border: 1px solid rgb(217, 85, 85);
+  color: rgb(217, 85, 85);
+  background-color: #fff;
+}
+.btn-outline-danger:hover {
+  color: white;
+  background-color: rgb(217, 85, 85);
+  box-shadow: 2px 2px 6px rgba(217, 85, 85, 0.4);
+}
+
+.bg-warning {
+  background-color: rgb(241, 241, 119);
+}
+
+/* Form */
+/* input field */
+input.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* Efek saat fokus */
+.form-control:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #212529;
+}
+
+.mt-4 {
+    margin-top: 0.4rem;
+}

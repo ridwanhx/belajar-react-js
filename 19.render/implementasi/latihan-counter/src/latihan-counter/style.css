@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: .325rem;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: royalblue;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: rgb(13, 60, 201);
+    color: #fff;
+}
+.btn-danger {
+    background-color: rgb(205, 37, 37);
+    color: #fff;
+}
+.btn-danger:hover {
+    background-color: rgb(184, 11, 11);
+    color: #fff;
+}
+.btn-warning {
+    background-color: rgb(249, 168, 18);
+    color: #fff;
+}
+.btn-warning:hover {
+    background-color: rgb(218, 144, 6);
+    color: #fff;
+}

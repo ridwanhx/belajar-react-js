@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: .325rem;
+    cursor: pointer;
+    transition: .325s ease-in-out;
+}
+
+.btn-outline-primary {
+    background-color: #fff;
+    border: 1px solid royalblue;
+    color: royalblue;
+}
+.btn-outline-primary:hover {
+    background-color: royalblue;
+    color: #fff;
+    box-shadow: 2px 2px 6px rgba(65, 105, 225, .45);
+}

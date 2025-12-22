@@ -38,7 +38,7 @@
 // Untungnya, React sudah menyediakan Library yang bernama Use Immer
 // Biasanya ketika kita menggunakan hooks pada React, kita akan  mendefinisikan terlebih dahulu dengan keyword "use", nah termasuk juga untuk menggunakan library ini, kita juga menggunakan use-immer
 // Library Immer juga bisa diintegrasikan dengan React State dengan mudah
-// Lita bisa menggunakan library Use-immer
+// Kita bisa menggunakan library Use-immer
 // https://github.com/immerjs/use-immer
 // Kita cukup mengganti useState() menjadi useImmer()
 // Dan untuk mengupdate Object di State, kita bisa menggunakan Function sebagai parameter di Update Method nya

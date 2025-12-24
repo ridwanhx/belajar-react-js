@@ -4,6 +4,8 @@ import { useImmer } from "use-immer";
 import { TaskForm } from "./TaskForm";
 import { TaskList } from "./TaskList";
 
+// inisiasi method Task
+// juga akan berperan sebagai parent bagi TaskForm dan TaskList
 function Task() {
   // inisiasi items
   const [items, setItems] = useImmer([]);

@@ -1,3 +1,4 @@
+// inisiasi method TaskList dengan parameter adalah merupakan props dengan nilai default yaitu array kosong
 function TaskList({ items = [] }) {
   return (
     <>

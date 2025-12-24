@@ -2,6 +2,7 @@ import "../App.css";
 import { useState } from "react";
 import { Label } from "../utils/Label";
 
+// inisiasi method TaskForm dengan parameter nya adalah merupakan props
 function TaskForm({ setItems }) {
   // inisiasi state
   const [item, setItem] = useState("");

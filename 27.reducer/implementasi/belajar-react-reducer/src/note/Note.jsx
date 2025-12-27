@@ -1,6 +1,5 @@
 import "../App.css";
 import { useState } from "react";
-import { Label } from "../utils/Label";
 
 function Note({ note, onChange, onDelete }) {
   // inisiasi state

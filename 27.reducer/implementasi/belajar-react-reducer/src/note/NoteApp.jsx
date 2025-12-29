@@ -5,7 +5,7 @@ import { NoteList } from "./NoteList";
 // inisiasi var id
 let id = 0;
 
-// inisiasi kerangka notes
+// inisiasi kerangka notes / dummy
 const initialNotes = [
   { id: id++, text: "Learn HTML", done: false },
   { id: id++, text: "Learn CSS", done: false },

@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         index: "index.html",
         todolist: "todolist.html",
+        wishlist: "wishlist.html",
       },
     },
   },

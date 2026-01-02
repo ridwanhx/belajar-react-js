@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         index: "index.html",
         profile: "profile.html",
+        contact: "contact.html",
       },
     },
   },

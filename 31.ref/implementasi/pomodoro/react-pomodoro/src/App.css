@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-salmon {
+  background-color: salmon;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  /* background-color: royalblue; */
+}
+
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.align-items-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  padding-bottom: 30px;
+  margin: 15px;
+  transition: transform 0.2s ease-in-out;
+  border: 2px solid #333;
+  box-shadow: 6px 6px 0 chocolate;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+
+/* buttons */
+.buttons {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+.buttons .d-flex {
+  display: flex;
+  gap: 0.5rem;
+}
+.buttons .d-flex button {
+  flex: 1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: .8rem;
+  cursor: pointer;
+  transition: transform .2s ease-in-out;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 1);
+}
+.btn:hover {
+  transform: translateY(-2.5px);
+}
+.btn-primary {
+  background-color: lightblue;
+  color: #000;
+}
+.btn-danger {
+  background-color: rgb(232, 64, 64);
+  color: white;
+}
+.btn-success {
+  background-color: rgb(38, 148, 86);
+  color: #000;
+}
+.btn-secondary {
+  background-color: rgb(217, 217, 217);
+  color: #000;
+}
+
+
+/* timer display */
+.timer-display {
+  padding: 2rem 0;
+  margin: 16px 0;
+  box-sizing: border-box;
+  background-color: beige;
+  border-radius: .6rem;
+  border: 2.5px solid #000;
+}
+.timer-display>.d-flex>span {
+  font-size: 32px;
+  font-weight: 600;
+}
+/* end timer display */
+
+hr {
+  border: none;
+  border-bottom: 2px dashed #333;
+  margin: 1rem 0;
+}
+
+.fw-bold {
+  font-weight: 600;
+}
+
+/* Form */
+.form-control {
+  display: inline-block;
+  width: 3.5rem;
+  padding: 3px 6px;
+  border: 1.6px solid #333;
+  border-radius: .4rem;
+  margin-top: 6px;
+}
+label.form-label {
+  display: block;
+  font-size: 12px;
+}

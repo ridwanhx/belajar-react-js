@@ -48,13 +48,13 @@ function PomodoroApp() {
           <label htmlFor="focus" className="form-label">
             Focus (min)
           </label>
-          <input type="text" className="form-control text-center" id="focus" />
+          <input type="text" className="form-control text-center" id="focus" value={25} />
         </div>
         <div className="text-center">
           <label htmlFor="rest" className="form-label">
             Rest (min)
           </label>
-          <input type="text" className="form-control text-center" id="rest" />
+          <input type="text" className="form-control text-center" id="rest" value={5} />
         </div>
       </div>
       <hr />

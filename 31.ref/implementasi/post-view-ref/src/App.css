@@ -1,0 +1,44 @@
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: .4rem;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, .25);
+}
+.card-body {
+  text-align: center;
+}
+.timer-display {
+  background-color: rgb(211, 180, 153);
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+.timer-display h5 {
+  transform: scale(2.5);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  /* gap: 20px; */
+}
+.btn {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  box-shadow: 2px 4px ;
+}
+.btn-primary {
+  background-color: royalblue;
+  color: #fff;
+}
+.btn-danger {
+  background-color: red;
+  color: #fff;
+}

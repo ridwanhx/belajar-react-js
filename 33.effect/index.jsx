@@ -19,3 +19,10 @@
 // Oleh karena itu, kita perlu berhati-hati, karena jika di dalam Effect kita mengubah State, maka bisa terjadi infinite loop yang menyebabkan proses render ulang terus-menerus terjadi tanpa henti
 // Berkaca dari contoh studi kasus sebelumnya, baiknya jika di dalam Effect kita melakukan perubahan state, sebaiknya kita perlu menentukan "kondisi terminasi" yang akan menjadi stopper / penghenti loop nya
 // Dalam kasus tadi, kita menginisiasi "kondisi terminasinya" adalah ketika load.current nya bernilai false, maka eksekusi effect. Dan Effect tidak akan di eksekusi jika load current nya bernilai sudah true.
+
+// Effect Clean Up
+// Pada beberapa kasus, mungkin kita butuh melakukan sesuatu setelah eksekusi Effect selesai dilakukan
+// Seperti misal di Try Catch, terdapat Finally
+// Di Effect terdapat proses yang namanya Clean Up, Clean Up akan dieksekusi setelah proses Effect selesai
+// Caranya cukup mudah, kita tinggal return kan Closure function di dalam Effect
+// Clean Up akan dieksekusi sebelum Effect selanjutnya di eksekusi, atau Component di hilangkan

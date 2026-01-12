@@ -26,6 +26,11 @@ function ProductList() {
     // dengan pengkondisian diatas, ketika render selesai, effect akan secara otomatis berjalan
     // selanjutnya effect tidak akan lagi dipanggil, karena di akhir pengkondisian diatas, kita sudah menginisiasikan nilai loaded current nya ke true
     // sehingga dengan begitu tidak memenuhi prasyarat pengkondisian diatas (loaded.current harus false jika effect ingin dijalankan)
+
+    // Implementasi Clean Up
+    return () => {
+      console.info("Product list component unmounted");
+    };
   });
 
   return (
